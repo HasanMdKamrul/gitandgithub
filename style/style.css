@@ -1,0 +1,65 @@
+. {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(55, 245, 245);
+  font-family: "Bebas Neue", cursive;
+}
+
+.main {
+  background-color: cyan;
+  padding: 1em;
+}
+
+.main .container .nav-container h1 {
+  color: blue;
+  text-align: left;
+}
+
+.main .container .nav-container h1 small {
+  color: #2076af;
+}
+
+.main .container .nav-container {
+  display: inline;
+}
+
+.main .container .nav-container ul {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  background-color: rgb(55, 245, 245);
+}
+
+.main .container .nav-container ul li {
+  list-style: none;
+  display: block;
+  padding: 10px;
+  border: 1px solid black;
+  color: rgb(34, 19, 162);
+  background-color: beige;
+}
+
+.main-container h3 {
+  color: rgb(164, 72, 139);
+  text-align: center;
+}
+
+.main-container .images {
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+}
+
+small {
+  color: rgb(64, 30, 186);
+}
+
+.main-container .content-area {
+  border: 1px solid black;
+  padding: 10px;
+}
